@@ -10,6 +10,7 @@
   <?php include("header.php")?>
 
   <section class="cabecera">
+    <div class="logo"></div>
     <p>Deliciosas tartas para cualquier ocasión</p>
     <button class="boton"><a href="galeria.php">Ver más</a></button>
   </section>
@@ -17,54 +18,47 @@
   <section class="seccion-productos">
     <h2>Nuestros productos</h2>
 
-    <div class="producto">
-      <img src="imagenes/tartas/blancaChocolateOreo.png" alt="blancaChocolateOreo.png">
-      <h3>Tarta de chocolate con Oreo</h3>
-      <p>Deliciosa tarta de chocolate con una suave nata por encima.</p>
-      <button class="boton"><a href="#">Ver más</a></button>
-    </div>
+      <div class="producto">
+        <img src="imagenes/tartas/blancaChocolateOreo.png" alt="blancaChocolateOreo.png">
+        <h3>Tarta de chocolate con Oreo</h3>
+        <p>Deliciosa tarta de chocolate con una suave nata por encima.</p>
+        <button class="boton"><a href="#">Ver más</a></button>
+      </div>
 
-    <div class="producto">
-      <img src="imagenes/tartas/fresas.jpg" alt="fresas.jpg">
-      <h3>Tarta de fresa</h3>
-      <p>Fresca tarta de fresa con un toque de nata montada.</p>
-      <button class="boton"><a href="#">Ver más</a></button>
-    </div>
+      <div class="producto">
+        <img src="imagenes/tartas/fresas.jpg" alt="fresas.jpg">
+        <h3>Tarta de fresa</h3>
+        <p>Fresca tarta de fresa con un toque de nata montada.</p>
+        <button class="boton"><a href="#">Ver más</a></button>
+      </div>
 
-    <div class="producto">
-      <img src="imagenes/tartas/queso.png" alt="queso.png">
-      <h3>Tarta de queso</h3>
-      <p>Cremosa tarta de queso con una base de galleta.</p>
-      <button class="boton"><a href="#">Ver más</a></button>
-    </div>
+      <div class="producto">
+        <img src="imagenes/tartas/queso.png" alt="queso.png">
+        <h3>Tarta de queso</h3>
+        <p>Cremosa tarta de queso con una base de galleta.</p>
+        <button class="boton"><a href="#">Ver más</a></button>
+      </div>
 
-    <div class="producto">
-      <img src="imagenes/tartas/colorVinoRosasColores.png" alt="colorVinoRosasColores.png">
-      <h3>------</h3>
-      <p>----------------------------</p>
-      <button class="boton"><a href="#">Ver más</a></button>
-    </div>
+      <div class="producto">
+        <img src="imagenes/tartas/colorVinoRosasColores.png" alt="colorVinoRosasColores.png">
+        <h3>Fresa y Butercream</h3>
+        <p>Tarta con sabor a fresa y buttercream decorada con crema pastelera.</p>
+        <button class="boton"><a href="#">Ver más</a></button>
+      </div>
 
-    <div class="producto">
-      <img src="imagenes/tartas/queso.jpg" alt="Tarta 3">
-      <h3>Tarta de queso</h3>
-      <p>Cremosa tarta de queso con una base de galleta.</p>
-      <button class="boton"><a href="#">Ver más</a></button>
-    </div>
+      <div class="producto">
+        <img src="imagenes/tartas/queso.jpg" alt="Tarta 3">
+        <h3>Tarta de queso</h3>
+        <p>Cremosa tarta de queso con una base de galleta.</p>
+        <button class="boton"><a href="#">Ver más</a></button>
+      </div>
 
-    <div class="producto">
-      <img src="imagenes/tartas/queso.jpg" alt="Tarta 3">
-      <h3>Tarta de queso</h3>
-      <p>Cremosa tarta de queso con una base de galleta.</p>
-      <button class="boton"><a href="#">Ver más</a></button>
-    </div>
-
-    <div class="producto">
-      <img src="imagenes/tartas/queso.jpg" alt="Tarta 3">
-      <h3>Tarta de queso</h3>
-      <p>Cremosa tarta de queso con una base de galleta.</p>
-      <button class="boton"><a href="#">Ver más</a></button>
-    </div>
+      <div class="producto">
+        <img src="imagenes/tartas/queso.jpg" alt="Tarta 3">
+        <h3>Tarta de queso</h3>
+        <p>Cremosa tarta de queso con una base de galleta.</p>
+        <button class="boton"><a href="#">Ver más</a></button>
+      </div>
     
   </section>
 
