@@ -1,0 +1,197 @@
+/* Estilos generales */
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f3ebeb; /* Color de fondo pastel */
+}
+
+header {
+  height: 90px;
+  background-color: #f3ebeb; /* Fondo blanco para el header */
+  padding: 10px;
+}
+
+.logo {
+  margin: 0;
+  height: 100px;
+  width: 100px;
+  background-image: url("../imagenes/logo.PNG");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  float: left;
+}
+
+nav {
+  float: right;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+}
+
+.boton {
+  background-color: #b08e8e;
+  color: white;
+  margin: 10px;
+  border: none;
+  cursor: pointer;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.boton a {
+  text-decoration: none;
+  color: white;
+}
+
+.boton:hover {
+  background-color: #ad7373;
+}
+
+/* cabecera */
+
+.cabecera {
+  color: #000000;
+  text-align: left;
+  padding: 80px 0;
+  padding-left: 30px;
+  background-color: #f9c9c9; /* Color de fondo pastel */
+  background-image: url("../imagenes/cabecera.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover;
+}
+
+.cabecera h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  /* color: #333; Texto gris oscuro */
+}
+
+.cabecera p {
+  font-size: 18px;
+  margin-bottom: 30px;
+  /* color: #666; Texto gris claro */
+}
+
+
+/* Sección de productos */
+
+.seccion-productos {
+  width: 92%;
+  margin-left: 30px;
+  padding: 20px;
+  background-color: #fff; /* Fondo blanco para la sección */
+  border-radius: 5px; /* Bordes redondeados en la sección */
+}
+
+.producto {
+  display: inline-block;
+  margin-right: 30px;
+  margin-bottom: 30px;
+  width: 300px;
+  text-align: center;
+  background-color: #fff; /* Fondo blanco para el producto */
+  border-radius: 10px; /* Bordes redondeados en el producto */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra para mayor profundidad */
+}
+
+.producto img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.producto h3 {
+  font-size: 20px;
+  margin-bottom: 5px;
+  color: #333; /* Texto gris oscuro */
+}
+
+.producto p {
+  font-size: 14px;
+  padding: 3px;
+  margin: 0 auto;
+  color: #666; /* Texto gris claro */
+}
+
+/* Sección sobre nosotros */
+
+.seccion-sobre-nosotros {
+  padding: 20px;
+  background-color: #fff; /* Fondo blanco para la sección */
+  border-radius: 5px; /* Bordes redondeados en la sección */
+}
+
+/* Galería */
+.gallery-item {
+  display: inline-block;
+  margin-right: 30px;
+  margin-bottom: 30px;
+  width: 700px;
+}
+
+.gallery-item img {
+  width: 100%;
+}
+
+
+
+/* Footer */
+
+footer {
+  background-color: #f9c9c9; /* Color de fondo pastel */
+  padding: 20px 0;
+  text-align: center;
+  border-top: 1px solid #ddd; /* Borde superior gris claro */
+  border-radius: 5px; /* Bordes redondeados en el footer */
+}
+
+/* Popup de contacto */
+
+.popup {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff; /* Fondo blanco para el popup */
+  padding: 20px;
+  border: 1px solid #ddd; /* Borde gris claro */
+  border-radius: 10px; /* Bordes redondeados en el popup */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para mayor profundidad */
+  z-index: 100;
+}
+
+.popup-contenido {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.popup-contenido h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #333; /* Texto gris oscuro */
+}
+
+.popup-contenido p {
+  font-size: 14px;
+  margin-bottom: 10px;
+  color: #666; /* Texto gris claro */
+}
