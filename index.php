@@ -7,20 +7,20 @@
   <link rel="stylesheet" href="css/estilos.css">
 </head>
 <body>
+  <?php include("firebaseSDK.php")?>
   <?php include("header.php")?>
-
-  <section class="cabecera">
+  <main>
+    <section class="cabecera">
     <div class="logo"></div>
-    <p>Deliciosas tartas para cualquier ocasión</p>
-    <button class="boton"><a href="galeria.php">Ver más</a></button>
   </section>
 
   <section class="seccion-productos">
-    <h2>Nuestros productos</h2>
+    
+    <h2 style="margin: 50px;">Nuestras Tartas</h2>
 
       <div class="producto">
         <img src="imagenes/tartas/blancaChocolateOreo.png" alt="blancaChocolateOreo.png">
-        <h3>Tarta de chocolate con Oreo</h3>
+        <h3>Chocolate con Oreo</h3>
         <p>Deliciosa tarta de chocolate con una suave nata por encima.</p>
         <button class="boton"><a href="#">Ver más</a></button>
       </div>
@@ -47,15 +47,29 @@
       </div>
 
       <div class="producto">
-        <img src="imagenes/tartas/queso.jpg" alt="Tarta 3">
-        <h3>Tarta de queso</h3>
+        <img src="imagenes/tartas/bajitaConFrambuesasVerde.png" alt="bajitaConFrambuesasVerde.png">
+        <h3>Chocolate con frambuesas</h3>
         <p>Cremosa tarta de queso con una base de galleta.</p>
         <button class="boton"><a href="#">Ver más</a></button>
       </div>
 
       <div class="producto">
-        <img src="imagenes/tartas/queso.jpg" alt="Tarta 3">
-        <h3>Tarta de queso</h3>
+        <img src="imagenes/tartas/kuchenManzana.png" alt="kuchenManzana.png">
+        <h3>Kuchen de Manzana</h3>
+        <p>Elaborado con una masa crujiente y un relleno jugoso de manzanas frescas.</p>
+        <button class="boton"><a href="#">Ver más</a></button>
+      </div>
+
+      <div class="producto">
+        <img src="imagenes/tartas/milohojasChilena.png" alt="milohojasChilena.png">
+        <h3>Milhojas chilena</h3>
+        <p>Capas de hojaldre crujiente, crema de chocolate y una cobertura de frutos rojos.</p>
+        <button class="boton"><a href="#">Ver más</a></button>
+      </div>
+
+      <div class="producto">
+        <img src="imagenes/tartas/zanahoria.png" alt="zanahoria.png">
+        <h3>Tarta de zanahoria</h3>
         <p>Cremosa tarta de queso con una base de galleta.</p>
         <button class="boton"><a href="#">Ver más</a></button>
       </div>
@@ -67,6 +81,9 @@
     <p>Tartas Sandy es una pastelería artesanal que se dedica a crear deliciosas tartas para cualquier ocasión. Utilizamos solo ingredientes frescos y de alta calidad para garantizar que nuestras tartas sean deliciosas y memorables.</p>
     <button class="boton"><a href="#">Más información</a></button>
   </section>
+  <button class="boton right" style="height: 100px;position:fixed; right: 0; bottom: 0; margin-bottom: 100px; border-radius: 100px;"><a href="pedirtarta.php">Quiero una tarta</a></button>
+  </main>
+  
 
   <?php include("footer.php")?>
 

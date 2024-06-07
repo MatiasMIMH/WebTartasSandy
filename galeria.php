@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="css/estilos.css">
 </head>
 <body>
+<?php include("firebaseSDK.php")?>
   <?php include("header.php")?>
 	<div class="gallery">
 		<h2>Nuestra Galería</h2>

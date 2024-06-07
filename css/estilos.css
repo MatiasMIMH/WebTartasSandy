@@ -20,15 +20,14 @@ header {
 }
 
 .logo {
-  margin: 10px;
-  height: 150px;
-  width: 150px;
+  margin: 0 auto;
+  height: 200px;
+  width: 200px;
   border-radius: 100px;
   background-image: url("../imagenes/logo.PNG");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  float: left;
 }
 
 nav {
@@ -78,11 +77,8 @@ nav a {
 /* cabecera */
 
 .cabecera {
-  color: #000000;
-  text-align: left;
-  padding: 80px 0;
-  padding-left: 30px;
-  background-color: #f9c9c9; /* Color de fondo pastel */
+  padding: 80px;
+  background-color: #f9c9c9;
   background-image: url("../imagenes/cabecera.jpg");
   background-repeat: no-repeat;
   background-position: center;
@@ -105,11 +101,11 @@ nav a {
 /* Sección de productos */
 
 .seccion-productos {
-  padding: 0;
+  padding-top: 15px;
   text-align: center;
   margin: 0 auto;
   margin-top: 50px;
-  width: 1130px;
+  width: 80vw;
   background-color: #fff;
 }
 
